@@ -1,0 +1,6 @@
+# AWS CloudFormation Drift Detector
+
+This is a serverless AWS Lambda project that detects infrastructure drift across the AWS CloudFormation stacks and notifies you through SMS.
+
+Key Features:
+
