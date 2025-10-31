@@ -1,0 +1,45 @@
+{
+    "FunctionName": "lambdaDriftDetectionFunction",
+    "FunctionArn": "arn:aws:lambda:us-east-1:127541836235:function:lambdaDriftDetectionFunction",
+    "Runtime": "python3.12",
+    "Role": "arn:aws:iam::127541836235:role/LambdaDriftDetectionRole",
+    "Handler": "lambdaDriftFunction.lambda_entrypoint",
+    "CodeSize": 831,
+    "Description": "",
+    "Timeout": 3,
+    "MemorySize": 128,
+    "LastModified": "2025-10-31T08:25:33.000+0000",
+    "CodeSha256": "YUVdhAPdaRhC6S3Ml28SbZBOk4de4eD40IfAsU1IJhU=",
+    "Version": "$LATEST",
+    "Environment": {
+        "Variables": {
+            "SNS_TOPIC_ARN": "arn:aws:sns:us-east-1:127541836235:driftDetectorAlertsTopic"
+        }
+    },
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "98795f29-b15d-4df8-ba5f-c1ffc8ef0d80",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-east-1::runtime:644f999c44288c3dd580a0b58d0576fe347ce4d089106e2c52ed35b626e0fb3c"
+    },
+    "LoggingConfig": {
+        "LogFormat": "Text",
+        "LogGroup": "/aws/lambda/lambdaDriftDetectionFunction"
+    }
+}

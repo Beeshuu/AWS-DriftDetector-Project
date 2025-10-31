@@ -1,0 +1,32 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "CloudFormationAccess",
+            "Effect": "Allow",
+            "Action": [
+                "cloudformation:ListStacks",
+                "cloudformation:DetectStackDrift",
+                "cloudformation:DescribeStackDriftDetectionStatus",
+                "cloudformation:DescribeStackResourceDrifts"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "SNSPublish",
+            "Effect": "Allow",
+            "Action": "sns:Publish",
+            "Resource": "*"
+        },
+        {
+            "Sid": "CWLogsAccess",
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogGroup",
+                "logs:CreateLogStream",
+                "logs:PutLogEvents"
+            ],
+            "Resource": "*"
+        }
+    ]
+}

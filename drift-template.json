@@ -1,0 +1,22 @@
+{
+  "Resources": {
+    "TestBucket": {
+      "Type": "AWS::S3::Bucket",
+      "Properties": {
+        "BucketName": "bee-drift-test-bucket-1",
+        "VersioningConfiguration": {
+          "Status": "Suspended"
+        },
+        "BucketEncryption": {
+          "ServerSideEncryptionConfiguration": [
+            {
+              "ServerSideEncryptionByDefault": {
+                "SSEAlgorithm": "AES256"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

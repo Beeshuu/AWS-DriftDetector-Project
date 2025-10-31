@@ -1,0 +1,8 @@
+{
+  "TagSet": [
+    {"Key": "aws:cloudformation:stack-name", "Value": "DriftTestStack"},
+    {"Key": "aws:cloudformation:logical-id", "Value": "TestBucket"},
+    {"Key": "aws:cloudformation:stack-id", "Value": "arn:aws:cloudformation:us-east-1:127541836235:stack/DriftTestStack/8820d630-b68e-11f0-8c88-0affcfb9df6f"},
+    {"Key": "drift", "Value": "true"}
+  ]
+}
