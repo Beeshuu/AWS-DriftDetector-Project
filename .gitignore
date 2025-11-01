@@ -1,20 +1,20 @@
 # Python cache and bytecode
-__pycache__/
-*.pyc
+#__pycache__/
+#*.pyc
 
 # Lambda deployment packages
-*.zip
+#*.zip
 
 # Logs and temporary outputs
-*.log
-output.json
+#*.log
+#output.json
 
 # AWS and environment files
-*.env
-.env
-.aws/
+#*.env
+#.env
+#.aws/
 
 # IDE or OS-specific files
-.vscode/
-.DS_Store
-Thumbs.db
+#.vscode/
+#.DS_Store
+#Thumbs.db
